@@ -17,7 +17,7 @@ body {
 header {
 
     background-color: #0957ff;
-    height: 555px;
+    height: 620px;
 }
 
 header > nav {
@@ -70,7 +70,7 @@ header > h1, p {
     margin-top: 20px;
     margin-left: 8.1vw;
     width: 80vw;
-    height: 30vh;
+    height: 50vh;
     background-image: url("image/tecnologia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
