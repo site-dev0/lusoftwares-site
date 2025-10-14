@@ -1,14 +1,14 @@
 .business {
-
-    height: 40vh;
-    width: 50vw;
+    
+    height: auto;
+    width: 100%;
     color: #FFFFFF;
     padding: 15px;
     text-shadow: 1px 1px 1px black;
     background-color: black;
     background-image: url("image/cliente.jpg");
+    background-size: contain;
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
