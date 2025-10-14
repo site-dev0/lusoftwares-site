@@ -64,11 +64,15 @@ header > h1, p {
 
     margin-left: 10px;
 }
+div.container {
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .img-parallax {
 
     margin-top: 20px;
-    margin-left: 8.1vw;
     width: 80vw;
     height: 50vh;
     background-image: url("image/tecnologia.jpg");
