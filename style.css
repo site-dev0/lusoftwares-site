@@ -87,6 +87,7 @@ main {
 main > p {
 
     margin-top: 60px;
+    font-size: 1.5em;
 }
 
 main > p > a {
@@ -108,21 +109,60 @@ main > p > a:hover {
     transition: .5s;
 }
 
-main > section > h2 > span {
+main > h1 {
+
+    margin-left: 20px;
+}
+
+main > h1 > span {
+
+    color: #0957ff;
+}
+
+main > section.why-choose > h2 {
+
+    margin-left: 20px;
+}
+
+main > section.why-choose > h2 > span {
 
     color: #0957ff;
 }
 
 .business {
 
-    height: 50vh;
-    width: 87vw;
-    background-color: black;
-    background-image: url("image/cliente.jpg");
-    background-size: cover;
+    height: 60vh;
+    width: 100vw;
     color: #FFFFFF;
     padding: 15px;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    background-image: url("image/cliente.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.business > p > a {
+
+    border: 1.5px solid black;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: none;
+    color: #000;
+    border-radius: 2px;
+}
+
+.business > p > a:hover {
+
+    border: 1.5px solid black;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: none;
+    background-color: #0957ff;
+    color: #FFF;
+    border-radius: 2px;
+    transition: .5s;
 }
 
 .saiba-mais > a {
