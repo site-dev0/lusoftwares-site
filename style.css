@@ -148,6 +148,10 @@ main > section.why-choose > h1 > span {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.business > p {
+
+    margin-bottom: 50px;
+}
 
 .business > p > a {
 

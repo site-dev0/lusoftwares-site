@@ -1,3 +1,29 @@
+
+header {
+    height: 500px;
+}
+
+header > div.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header > div.container > div.img-parallax {
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100vw;
+    height: 40vh;
+    background-image: url("image/tecnologia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1.5px solid aqua;
+    box-shadow: 1px 2px 5px black;
+}
+
 .business {
     
     height: 100vh;
