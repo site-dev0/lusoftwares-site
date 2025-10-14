@@ -18,6 +18,7 @@ header {
 
     background-color: #0957ff;
     height: 700px;
+    padding-top: 15px;
 }
 
 header > nav {

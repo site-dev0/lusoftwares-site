@@ -1,0 +1,38 @@
+.business {
+
+    height: 40vh;
+    width: 50vw;
+    color: #FFFFFF;
+    padding: 15px;
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    background-image: url("image/cliente.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.business > p > a {
+
+    border: 1.5px solid black;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: none;
+    color: #000;
+    border-radius: 2px;
+    font-size: 1.4em;
+    background-color: #585757cf;
+}
+
+.business > p > a:hover {
+
+    border: 1.5px solid black;
+    padding: 5px;
+    text-decoration: none;
+    text-shadow: none;
+    background-color: #0957ff;
+    color: #FFF;
+    border-radius: 2px;
+    transition: .5s;
+}
