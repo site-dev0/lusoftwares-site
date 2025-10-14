@@ -82,7 +82,6 @@ header > h1, p {
 main {
 
     overflow-x: hidden;
-    font-size: 1.5em;
 }
 
 main > p {
@@ -152,6 +151,7 @@ main > section.why-choose > h2 > span {
     text-shadow: none;
     color: #000;
     border-radius: 2px;
+    font-size: 1.4em;
 }
 
 .business > p > a:hover {
