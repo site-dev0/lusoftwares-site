@@ -1,6 +1,6 @@
 
 header {
-    height: 500px;
+    height: 600px;
 }
 
 header > div.container {
@@ -12,14 +12,13 @@ header > div.container {
 header > div.container > div.img-parallax {
 
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     background-image: url("image/tecnologia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     border: 1.5px solid aqua;
     box-shadow: 1px 2px 5px black;
 }
@@ -33,7 +32,7 @@ header > div.container > div.img-parallax {
     text-shadow: 1px 1px 1px black;
     background-color: black;
     background-image: url("image/cliente.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
