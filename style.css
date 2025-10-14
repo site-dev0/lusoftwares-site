@@ -152,6 +152,7 @@ main > section.why-choose > h2 > span {
     color: #000;
     border-radius: 2px;
     font-size: 1.4em;
+    background-color: #0000003d;
 }
 
 .business > p > a:hover {
