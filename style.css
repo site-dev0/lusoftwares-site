@@ -17,7 +17,7 @@ body {
 header {
 
     background-color: #0957ff;
-    height: 650px;
+    height: 670px;
 }
 
 header > nav {
@@ -64,13 +64,13 @@ header > h1, p {
 
     margin-left: 10px;
 }
-div.container {
+header > div.container {
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.img-parallax {
+header > div.container > div.img-parallax {
 
     margin-top: 20px;
     width: 80vw;
