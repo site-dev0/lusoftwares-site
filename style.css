@@ -137,8 +137,8 @@ main > section.why-choose > h1 > span {
 
 .business {
 
-    height: 400px;
-    width: 250px;
+    height: 100vh;
+    width: 100%;
     color: #FFFFFF;
     padding: 15px;
     text-shadow: 1px 1px 1px black;
