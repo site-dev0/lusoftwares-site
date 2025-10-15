@@ -126,6 +126,12 @@ main > h1 > span {
     color: #0957ff;
 }
 
+main > p > span {
+
+    color: #0957ff;
+    text-shadow: 1px 1px 1px black;
+}
+
 main > section.why-choose > h1 {
 
     margin-left: 20px;
