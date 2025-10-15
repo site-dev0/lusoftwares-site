@@ -7,6 +7,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+@keyframes fadeInSite {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+header, main, footer {
+  opacity: 0;
+  animation: fadeInSite 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+
 body {
     
     background-color: #FFFFFF;
@@ -76,7 +95,9 @@ header > div.container {
 header > div.container > div.img-parallax {
 
     margin-top: 20px;
-    width: 80vw;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100vw;
     height: 50vh;
     background-image: url("image/tecnologia.jpg");
     background-repeat: no-repeat;
@@ -155,6 +176,8 @@ main > section.why-choose > h1 > span {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1.5px solid aqua;
+    box-shadow: 2px 2px 3px black;
 }
 
 .business > h2 {
