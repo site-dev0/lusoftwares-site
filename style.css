@@ -47,8 +47,7 @@ header {
 
 header > nav {
 
-    text-align: right;
-    
+    text-align: right;  
 }
 
 header > nav > a {
@@ -86,7 +85,7 @@ header > p {
     color: #FFFFFF;
 }
 
-header > h1, p {
+header >  h1, p {
 
     margin-left: 10px;
 }
@@ -94,10 +93,8 @@ header > h1, p {
 header > div.container {
 
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-header > div.container > div.img-parallax {
+header > .container > div.img-bgimage {
 
     margin-top: 20px;
     margin-left: 30px;
@@ -244,6 +241,31 @@ main > section.why-choose > h1 > span {
     transition: .5s;
 }
 
+
+section.services > h1 {
+
+    padding-left: 20px;
+}
+
+section.services > h1 > span{
+
+    color: #0957ff;
+}
+
+section.services > .service-item {
+
+    background-color: #3273ff;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    color: #FFF;
+}
+
+section.services > .service-item > h2 > span {
+
+    color: #00b7ff;
+    text-shadow: 1px 1px 1px black;
+}
 
 footer {
 

@@ -9,8 +9,8 @@ header > div.container {
     justify-content: center;
     align-items: center;
 }
-header > div.container > div.img-parallax {
-
+header > div.container > div.img-bgimage {
+    
     margin-top: 20px;
     margin-left: 40px;
     margin-right: 40px;
