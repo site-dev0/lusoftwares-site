@@ -38,3 +38,37 @@ main > h1 > span {
 
     color: #0957ff;
 }
+
+main > h2 {
+
+     margin-left: 20px;
+}
+
+main > h2  > span {
+
+    color: #0957ff;
+}
+
+main > p > a {
+
+    margin-left: 20px;
+    font-size: 1.5em;
+    border: 2px solid gray;
+    padding: 5px;
+    text-decoration: none;
+    color: #a4a4a4;
+    border-radius: 2px;
+}
+
+main > p > a:hover {
+
+    background-color: #0957ff;
+    margin-left: 20px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 2px;
+    transition: .5s;
+}
