@@ -50,6 +50,22 @@ header > nav {
     text-align: right;  
 }
 
+abbr {
+
+    text-decoration: none;
+}
+
+p {
+
+    line-height: 18px;
+}
+
+a {
+
+    color: #FFF;
+    text-decoration: none;
+}
+
 header > nav > a {
 
     text-decoration: none;
@@ -120,11 +136,16 @@ main {
 
 main > p {
 
+    margin-top: 1px;
+}
+
+main > .problem > p {
+
     margin-top: 60px;
     font-size: 1.5em;
 }
 
-main > p > a {
+main .problem > p > a {
 
     border: 2px solid gray;
     padding: 5px;
@@ -133,7 +154,7 @@ main > p > a {
     border-radius: 2px;
 }
 
-main > p > a:hover {
+main > .problem > p > a:hover {
 
     border: 2px solid gray;
     padding: 5px;
@@ -143,17 +164,17 @@ main > p > a:hover {
     transition: .5s;
 }
 
-main > h1 {
+main > .problem > h1 {
 
     margin-left: 20px;
 }
 
-main > h1 > span {
+main > .problem > h1 > span {
 
     color: #0957ff;
 }
 
-main > p > span {
+main > .problem > p > span {
 
     color: #0957ff;
     text-shadow: 1px 1px 1px black;
