@@ -48,3 +48,18 @@ main > h1  > span {
     color: #FFFFFF;
     padding: 3px;
 }
+
+main > h2 {
+
+    margin-left: 20px;
+}
+
+ul {
+
+    margin-left: 10px; 
+}
+
+ul > li {
+
+    margin-bottom: 15px;
+}
