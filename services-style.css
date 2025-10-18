@@ -16,6 +16,7 @@ header > .container > .img-bgimage-service {
     margin-top: 20px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 20px;
     width: 100vw;
     height: 50vh;
     background-image: url("image/services-image.jpg");
