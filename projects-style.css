@@ -1,4 +1,9 @@
 
+header {
+
+    height: 760px;
+}
+
 header > .container > .img-bgimage-project {
     
     margin-top: 20px;
