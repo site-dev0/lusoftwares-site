@@ -1,7 +1,7 @@
 
 header {
-
-    height: 760px;
+    
+    height: 800px;
 }
 
 header > .container > .img-bgimage-project {
@@ -33,6 +33,7 @@ main > h1 > span {
 }
 
 .projects > div#lunex_ai {
+    
     background-image: url("image/lunex-ia.jpg");
     background-repeat: no-repeat;
     background-size: cover;
