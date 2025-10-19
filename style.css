@@ -291,3 +291,9 @@ footer {
     height: 185px;
     padding: 15px;
 }
+
+i {
+
+    margin-left: 20px;
+    font-size: 1.5em;
+}
