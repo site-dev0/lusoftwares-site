@@ -50,3 +50,72 @@ main > h1 > span {
 
     margin-left: 20px;
 }
+
+.projects > div#lunex_ai > p > a {
+
+    margin-left: 20px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 2px;
+}
+
+.projects > div#lunex_ai > p > a:hover {
+
+    background-color: #0957ff;
+    margin-left: 20px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+    transition: .5s;
+}
+
+.projects > div#lunex_browser {
+    
+    margin-top: 30px;
+    background-image: url("image/lunex-browser.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    color: #FFFFFF;
+    padding-top: 15px;
+    border: 2px solid aqua;
+    box-shadow: 1px 2px 5px black;
+    margin-bottom: 30px;
+}
+
+.projects > div#lunex_browser > h2 {
+
+    margin-left: 20px;
+}
+
+.projects > div#lunex_browser > p > a {
+    
+    margin-left: 20px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: #4b63ff;
+    border-radius: 2px;
+}
+
+.projects > div#lunex_browser > p > a:hover {
+
+    background-color: #0957ff;
+    margin-left: 20px;
+    font-size: 1.5em;
+    border: 2px solid black;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+    transition: .5s;
+}
