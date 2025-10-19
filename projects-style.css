@@ -1,0 +1,41 @@
+
+header > .container > .img-bgimage-project {
+    
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 100vw;
+    height: 50vh;
+    background-image: url("image/projects-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1.5px solid aqua;
+    box-shadow: 1px 2px 5px black;
+    opacity: 0;
+    animation: fadeInSite 1s ease-out forwards;
+    animation-delay: 0.1s;
+}
+
+main > h1 {
+
+    margin-left: 20px;
+}
+
+main > h1 > span {
+
+    color: #0957ff;
+}
+
+.projects > div#lunex_ai {
+    background-image: url("image/lunex-ia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right right;
+    width: 100vw;
+    height: 100vh;
+    color: #FFFFFF;
+    padding: 15px;
+    border: 2px solid aqua;
+    box-shadow: 1px 2px 5px black;
+}
