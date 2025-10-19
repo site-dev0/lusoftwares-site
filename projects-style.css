@@ -1,6 +1,6 @@
 
 header {
-    
+
     height: 800px;
 }
 
@@ -41,7 +41,12 @@ main > h1 > span {
     width: 100vw;
     height: 100vh;
     color: #FFFFFF;
-    padding: 15px;
+    padding-top: 15px;
     border: 2px solid aqua;
     box-shadow: 1px 2px 5px black;
+}
+
+.projects > div#lunex_ai > h2 {
+
+    margin-left: 20px;
 }
