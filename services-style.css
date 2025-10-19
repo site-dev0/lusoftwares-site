@@ -49,6 +49,17 @@ main > h2  > span {
 
     color: #0957ff;
 }
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+
+    border: 1.5px solid aqua;
+    box-shadow: 1px 2px 5px black;
+}
 
 main > p > a {
 
